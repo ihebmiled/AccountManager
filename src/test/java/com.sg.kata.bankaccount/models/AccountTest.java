@@ -58,6 +58,5 @@ public class AccountTest {
         assertThat(account.getHistory().get(1).getAmount()).isEqualTo(300f);
         assertThat(account.getHistory().get(1).getPreviousBalance()).isEqualTo(1000f);
         assertThat(account.getHistory().get(1).getNewBalance()).isEqualTo(1300f);
-
     }
 }
