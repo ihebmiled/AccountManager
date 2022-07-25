@@ -39,3 +39,4 @@ public class History {
         this.newBalance = newBalance;
     }
 }
+
